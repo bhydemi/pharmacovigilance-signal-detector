@@ -36,8 +36,7 @@ env/
 *.swp
 *.swo
 
-# Audit logs (generated at runtime)
-audit_logs/
+# Keep audit_logs for submission evidence
 
 # OS
 .DS_Store

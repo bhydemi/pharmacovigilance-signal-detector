@@ -1,0 +1,56 @@
+
+============================================================
+PHARMACOVIGILANCE SIGNAL ANALYSIS
+Drug: MONTELUKAST | Adverse Event: AGGRESSION
+Run ID: 54fa369d
+============================================================
+
+📚 Fetching literature evidence from PubMed...
+   Found 0 articles, strength: unknown
+
+🔬 Running STATISTICAL agent...
+  🌐 Querying live FAERS API for MONTELUKAST + AGGRESSION...
+  📊 Contingency: a=1,235, b=80,028, c=47,202, d=19,878,524
+  📊 Total FAERS reports: 20,006,989
+   ✓ Statistical analysis complete
+
+🏥 Running CLINICAL agent...
+   ✓ Clinical assessment complete
+
+📋 Running REGULATORY agent...
+   ✓ Regulatory report complete
+
+🔍 Running QUALITY CONTROL review...
+   Quality Score: 92.5
+   Status: approved
+   Target agents for revision: ['clinical']
+
+
+────────────────────────────────────────
+ITERATION 2
+────────────────────────────────────────
+🔄 Re-running CLINICAL agent with QC feedback...
+   ✓ Clinical revised (revision #1)
+📋 Regenerating REGULATORY report with updated inputs...
+   ✓ Regulatory report regenerated
+
+🔍 Re-running QUALITY CONTROL...
+   Quality Score: 97.0
+   Status: approved
+   Remaining targets: ['clinical']
+
+============================================================
+ANALYSIS COMPLETE
+============================================================
+Final Quality Score: 97.0
+Iterations Used: 2
+Converged: True
+Audit Log: audit_logs/audit_20260216_012505_MONTELUKAST.json
+
+=== SUMMARY ===
+Drug: MONTELUKAST
+Adverse event: AGGRESSION
+Final quality score: 97.0
+Iterations used: 2
+Converged: True
+Audit log: audit_logs/audit_20260216_012505_MONTELUKAST.json
