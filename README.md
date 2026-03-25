@@ -88,7 +88,3 @@ Converged: True
 - QC integration with feedback routing
 - Feedback loop with targeted re-execution
 - Audit logging for traceability
-
-## License
-
-Educational project for Udacity AI course.
